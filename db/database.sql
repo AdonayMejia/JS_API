@@ -8,3 +8,8 @@ PRIMARY KEY(id)
 );
 
 DESCRIBE employees;
+INSERT INTO employees VALUES
+(1,'pedro',250),
+(2,'Angela',300),
+(3,'Robert',500);
+SELECT * FROM employees;
