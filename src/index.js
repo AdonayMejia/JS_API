@@ -3,7 +3,7 @@ const app = express();//constante para guardar toda la funcionalidad de este mod
 
 
 // Settings
-app.set('port', process.env.PORT || 4000);//definir el puerto por el cual va a escuchar 
+app.set('port', process.env.PORT || 4000);//definir el puerto por el cual va a escuchar nuestra API
 
 // Middlewares
 app.use(express.json());
