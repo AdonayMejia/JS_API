@@ -41,7 +41,7 @@ router.post('/', (req, res) => {
   `;
   mysqlConnection.query(query, [id, name, salary], (err, rows, fields) => {
     if(!err) {
-      res.json({status: 'Empleado Guardado'});
+      res.json({status: 'Empleado Guardado con exito'});
     } else {
       console.log(err);
     }
