@@ -1,4 +1,4 @@
-CREATE DEFINER=`root`@`localhost` PROCEDURE `employeeAddOrEdit`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `employeeAddOrEdit`(//Procedure
  IN _id INT,
  IN _name VARCHAR(45),
  IN _salary INT
